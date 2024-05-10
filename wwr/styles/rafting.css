@@ -20,7 +20,6 @@ body {
     box-sizing:border-box;
     max-width: 1200px;
 }
-
 header { 
     padding: 25px;
     background-color: var(--nav-background-color);
@@ -43,65 +42,56 @@ nav a {
 }
 
 .hero {
-    position: relative; /* Para elementos con posicionamiento absoluto */
-    background-size: cover; /* Imagen de fondo cubre todo el espacio */
-    background-position: center; /* Imagen de fondo centrada */
-    overflow: hidden; /* Evitar desbordamientos */
+    position: relative;
+    background-size: cover; 
+    background-position: center; 
+    overflow: hidden; 
 }
 .hero img {
-    width: 100%; /* Make the image fit the full width of the hero container */
-    display: block; /* Set as block-level to fill the width */
+    width: 100%; 
+    display: block;
     height: auto;
 }
-
-/* Positioning the h1 heading */
 .hero h1 {
-    position: absolute; /* Absolute positioning within the hero section */
-    top: 20px; /* Position the heading towards the top */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Center using translation */
-    font-size: 3em; /* Increase the font size */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
-    padding: 20px; /* Add padding for spacing */
+    position: absolute; 
+    top: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
     color:var(--secondary-color)
 }
-
 .hero article {
-    position: absolute; /* Posicionamiento absoluto */
-    top: 50%; /* Centrado verticalmente */
-    left: 50%; /* Centrado horizontalmente */
-    transform: translate(-50%, -50%); /* Ajuste para centrar */
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
-    padding: 20px; /* Espacio interior */
-    color: white; /* Color del texto */
-    width: 900px; /* Ancho máximo para el artículo */
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px; 
+    color: white; 
+    width: 900px; 
 }
-
 .hero article img {
-    float: right; /* Float the image to the right */
-    width: 200px; /* Set a smaller width */
-    margin-left: 20px; /* Space between the image and text */
+    float: right;
+    width: 200px;
+    margin-left: 20px; 
 }
-
 .hero article p{
-    font-size: 1.1em; /* Tamaño del texto */
-    text-align: right; /* Alinear el texto a la izquierda */
-    flex-grow: 1; /* Permitir que el texto ocupe espacio disponible */
+    font-size: 1.1em; 
+    text-align: right; 
+    flex-grow: 1; 
 }
-
 section {
     padding: 20px;
 }
-
 section h2 {
     color: var(--accent1-color);
 }
-
 section img {
     width: 100%;
     margin-bottom: 10px;
 }
-
 footer {
     background-color: var(--primary-color);
     color: white;
@@ -113,12 +103,10 @@ footer a {
     text-decoration: none;
     color: white;
 }
-
 footer a img {
     height: 30px;
     margin: 0 10px;
 }
-
 footer p {
     margin: 0;
 }
