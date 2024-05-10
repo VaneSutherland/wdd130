@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+:root {
+    --primary-color: #021d11;
+    --secondary-color: #eff4c8;
+    --accent1-color: #003156;
+    --accent2-color: #dbfde3;
+
+    --heading-font: "Raleway", san-serif;
+    --paragraph-font: "Raleway", san-serif;
+
+    --nav-background-color: #021d11;
+    --nav-link-color: #eff4c8;
+    --nav-hover-link-color: #e1d5bb ;
+    --nav-hover-background-color: #eff4c8;
+}
+body {
+    font-family: var(--paragraph-font);
+    background-color:var(---secondary-color);
+    padding: 0px;
+    margin:0;    
+    box-sizing:border-box;
+    max-width: 1200px;
+}
+
+header { 
+    padding: 25px;
+    background-color: var(--nav-background-color);
+}
+header img {   /*logo*/
+    height: 100px;
+}
+p {
+    padding: 25px;
+}
+nav {
+    font-size: 1.5rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.hero {
+    position: relative; /* Para elementos con posicionamiento absoluto */
+    background-size: cover; /* Imagen de fondo cubre todo el espacio */
+    background-position: center; /* Imagen de fondo centrada */
+    overflow: hidden; /* Evitar desbordamientos */
+}
+.hero img {
+    width: 100%; /* Make the image fit the full width of the hero container */
+    display: block; /* Set as block-level to fill the width */
+    height: auto;
+}
+
+/* Positioning the h1 heading */
+.hero h1 {
+    position: absolute; /* Absolute positioning within the hero section */
+    top: 20px; /* Position the heading towards the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center using translation */
+    font-size: 3em; /* Increase the font size */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 20px; /* Add padding for spacing */
+    color:var(--secondary-color)
+}
+
+.hero article {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 50%; /* Centrado verticalmente */
+    left: 50%; /* Centrado horizontalmente */
+    transform: translate(-50%, -50%); /* Ajuste para centrar */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    padding: 20px; /* Espacio interior */
+    color: white; /* Color del texto */
+    width: 900px; /* Ancho máximo para el artículo */
+}
+
+.hero article img {
+    float: right; /* Float the image to the right */
+    width: 200px; /* Set a smaller width */
+    margin-left: 20px; /* Space between the image and text */
+}
+
+.hero article p{
+    font-size: 1.1em; /* Tamaño del texto */
+    text-align: right; /* Alinear el texto a la izquierda */
+    flex-grow: 1; /* Permitir que el texto ocupe espacio disponible */
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: var(--accent1-color);
+}
+
+section img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a img {
+    height: 30px;
+    margin: 0 10px;
+}
+
+footer p {
+    margin: 0;
+}
