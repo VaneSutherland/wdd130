@@ -15,7 +15,6 @@
 }
 body {
     font-family: var(--paragraph-font);
-    background-color:var(---secondary-color);
     padding: 0px;
     margin:0;    
     box-sizing:border-box;
