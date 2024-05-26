@@ -31,7 +31,7 @@
         <section class="our-location-section">
             <h2>Our Location</h2>
             <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3088.341422818502!2d-71.9786451231713!3d-39.28050695659776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96147f40c90757c9%3A0xfcbf5dc6ca091e7!2sFresia%20769%2C%204920436%20Pucon%2C%20Puc%C3%B3n%2C%20Araucan%C3%ADa!5e0!3m2!1ses!2scl!4v1716638081306!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3088.341422818502!2d-71.9786451231713!3d-39.28050695659776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96147f40c90757c9%3A0xfcbf5dc6ca091e7!2sFresia%20769%2C%204920436%20Pucon%2C%20Puc%C3%B3n%2C%20Araucan%C3%ADa!5e0!3m2!1ses!2scl!4v1716638081306!5m2!1ses!2scl" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
 
@@ -65,15 +65,15 @@
                 <fieldset>
                     <legend>Purpose of the Message</legend>
                     <label>
-                        <input type="radio" name="purpose" value="general_inquiry" required>
+                        <input type="radio" name="purpose" id="general_inquiry" value="general_inquiry" required>
                         General Inquiry
                     </label>
                     <label>
-                        <input type="radio" name="purpose" value="reservation_question" required>
+                        <input type="radio" name="purpose" id="reservation_question" value="reservation_question" required>
                         Reservation Question 
                     </label>
                     <label>
-                        <input type="radio" name="purpose" value="website_suggestion" required>
+                        <input type="radio" name="purpose" id="website_suggestion" value="website_suggestion" required>
                         Website Suggestion 
                     </label>
                 </fieldset>
@@ -81,11 +81,11 @@
                 <textarea id="message" name="message" required></textarea>
                 
                 <label>
-                    <input type="checkbox" name="subscribe">
+                    <input type="checkbox" name="subscribe" id="subscribe">
                     Please subscribe me to the monthly newsletter
                 </label>
                 
-                <button type="submit">Submit</button>
+                <button type="submit" id="submit">Submit</button>
             </form>
         </section>
     </main>

@@ -241,7 +241,7 @@ section h2 {
 }
 
 .contact-form-section button:hover {
-    background-color: darken(var(--accent1-color), 10%);
+    background-color: (--accent1-color);
 }
 
 .contact-form-section fieldset {
