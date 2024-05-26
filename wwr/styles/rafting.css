@@ -20,6 +20,7 @@ body {
     margin:0;    
     box-sizing:border-box;
     max-width: 1200px;
+    margin: 0 auto; 
 }
 
 header { 
@@ -29,7 +30,7 @@ header {
     background-color: var(--nav-background-color);
 }
 
-header img {   /*logo*/
+header img {  
     height: 100px;
 }
 
@@ -51,7 +52,19 @@ nav a {
 }
 
 h1, h2 {
-    text-align: center; 
+    text-align: center;
+ 
+}
+
+.contact h1, .contact h2 {
+    color: var(--accent1-color);
+}
+
+.contact-us-section p,
+.contact-us-section address p {
+    line-height: 2; /* Adjust this value to control line spacing */
+    margin: 0; /* Remove default margin */
+    padding: 5px 0; /* Add some padding for better spacing control */
 }
 
 .hero {
@@ -161,6 +174,118 @@ section h2 {
 
 .Adventures figcaption {
     text-align: center;
+}
+
+/* Styles for contact form */
+/* Contact Form Styles */
+.contact-form-section {
+    padding: 20px;
+}
+
+.contact-form-section h2 {
+    text-align: center;
+    color: var(--accent1-color);
+}
+
+.contact-form-section form {
+    background-color: #d3d3d3; /* Gray background color for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px; /* Adjust width as needed */
+    max-width: 100%;
+    margin: 0 auto; /* Center the form */
+}
+
+.contact-form-section label,
+.contact-form-section input,
+.contact-form-section textarea,
+.contact-form-section button,
+.contact-form-section fieldset,
+.contact-form-section legend {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact-form-section input,
+.contact-form-section textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form-section button {
+    padding: 10px;
+    background-color: var(--accent1-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form-section button:hover {
+    background-color: darken(var(--accent1-color), 10%);
+}
+
+.contact-form-section fieldset {
+    border: none;
+    padding: 0;
+}
+
+.contact-form-section legend {
+    font-weight: bold;
+}
+
+.contact-form-section input[type="radio"],
+.contact-form-section input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    margin-right: 10px;
+}
+
+.contact-form-section label[for="message"],
+.contact-form-section textarea {
+    margin-top: 10px;
+}
+
+/* Employee profiles */
+.employee-profiles {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.employee {
+    text-align: center;
+    margin: 10px;
+}
+
+.employee img {
+    width: 100px; /* Set the image width to be smaller */
+    height: 100px; /* Set the image height to be smaller */
+    border-radius: 30%;
+    margin-bottom: 10px;
+}
+
+.employee figcaption {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Styles for the map container */
+.map-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto; /* Center the map container */
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 450px;
+    border: none; /* Remove border from iframe */
 }
 
 
