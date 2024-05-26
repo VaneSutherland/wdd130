@@ -240,10 +240,6 @@ section h2 {
     cursor: pointer;
 }
 
-.contact-form-section button:hover {
-    background-color: (--accent1-color);
-}
-
 .contact-form-section fieldset {
     border: none;
     padding: 0;
