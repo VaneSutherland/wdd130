@@ -56,17 +56,6 @@ h1, h2 {
  
 }
 
-.contact h1, .contact h2 {
-    color: var(--accent1-color);
-}
-
-.contact-us-section p,
-.contact-us-section address p {
-    line-height: 2; /* Adjust this value to control line spacing */
-    margin: 0; /* Remove default margin */
-    padding: 5px 0; /* Add some padding for better spacing control */
-}
-
 .hero {
     position: relative;
     background-size: cover; 
@@ -176,8 +165,34 @@ section h2 {
     text-align: center;
 }
 
+/* Styles for contact us section */
+
+.contact h1, .contact h2 {
+    color: var(--accent1-color);
+}
+
+.contact-us-section p,
+.contact-us-section address p {
+    line-height: 2;
+    margin: 0;
+    padding: 5px 0;
+}
+
+/* Styles for the map container */
+.map-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+}
+
 /* Styles for contact form */
-/* Contact Form Styles */
+
 .contact-form-section {
     padding: 20px;
 }
@@ -188,13 +203,13 @@ section h2 {
 }
 
 .contact-form-section form {
-    background-color: #d3d3d3; /* Gray background color for the form */
+    background-color: #d3d3d3; 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 500px; /* Adjust width as needed */
+    width: 500px; 
     max-width: 100%;
-    margin: 0 auto; /* Center the form */
+    margin: 0 auto; 
 }
 
 .contact-form-section label,
@@ -255,7 +270,7 @@ section h2 {
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    flex-wrap: wrap;
 }
 
 .employee {
@@ -264,8 +279,8 @@ section h2 {
 }
 
 .employee img {
-    width: 100px; /* Set the image width to be smaller */
-    height: 100px; /* Set the image height to be smaller */
+    width: 100px;
+    height: 100px;
     border-radius: 30%;
     margin-bottom: 10px;
 }
@@ -274,20 +289,6 @@ section h2 {
     font-weight: bold;
     margin-top: 5px;
 }
-
-/* Styles for the map container */
-.map-container {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto; /* Center the map container */
-}
-
-.map-container iframe {
-    width: 100%;
-    height: 450px;
-    border: none; /* Remove border from iframe */
-}
-
 
 /* Styles for footer */
 footer {
