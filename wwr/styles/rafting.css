@@ -18,17 +18,16 @@ body {
     font-family: var(--paragraph-font);
     margin: 0;
     padding: 0;
-    background-color: var(--accent2-color); /* Color de fondo */
-    display: block;
-    justify-content: center; /* Centrar el contenedor principal horizontalmente */
+    background-color: var(--accent2-color);
+    justify-content: center;
 }
 
 .wrapper {
     width: 100%;
-    max-width: 100px; /* Limitar el ancho máximo */
-    background-color: #fff; /* Color de fondo del contenido */
+    max-width: 100px; 
+    background-color: #fff; 
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra opcional para dar profundidad */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 /* Styles for the header */
@@ -147,7 +146,7 @@ section h2 {
     text-align: justify;
     flex: 1;
     padding: 10px 30px; 
-    line-height: 1.8; /* Añadir espacio entre líneas */
+    line-height: 1.8; 
 
 }
 /* style for about adventures*/
@@ -311,7 +310,7 @@ section h2 {
 /* STYLE FOR TRIP */
 /* Style for Trip cta */
 .cta {
-    color: var(--accent1-color); /* Darker text color for better readability */
+    color: var(--accent1-color); 
     padding: 20px;
     text-align: center;
 }
@@ -331,7 +330,7 @@ section h2 {
 
 .cta-button {
     display: inline-block;
-    margin: 10 px;
+    margin: 10px;
     padding: 10px 20px;
     font-size: 1.2em;
     background-color: var(--primary-color);
@@ -358,7 +357,7 @@ section h2 {
     border: 1px solid #ddd;
     padding: 10px;
     border-radius: 5px;
-    background: #f9f9f9; /* Resetting background color for trip description boxes */
+    background: #f9f9f9; 
 }
 
 .trip img {
@@ -369,7 +368,7 @@ section h2 {
 
 .trip-descriptions {
     padding: 10px;
-    color: #333; /* Changing text color for trip descriptions */
+    color: #333; 
 }
 
 .trip-table table {
@@ -453,11 +452,11 @@ footer a img {
     text-align: left;
     margin: 2rem auto;
     max-width: 600px;
-    padding: 2rem; /* Añadido padding para espacio interno */
-    border: 1px solid #ccc; /* Añadido borde para el recuadro */
-    border-radius: 10px; /* Añadido borde redondeado */
-    background-color: #f9f9f9; /* Añadido color de fondo para el recuadro */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Añadido sombra para dar profundidad */
+    padding: 2rem; 
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 .newsletter h2 {
@@ -519,22 +518,22 @@ footer a img {
 
 .grid-layout {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Adjusted grid layout to 2 columns */
-    gap: 2rem; /* Added gap between grid items */
-    margin: 2rem auto; /* Added margin for spacing */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 2rem; 
+    margin: 2rem auto; 
 }
 
 .grid-item {
-    border: 1px solid #ccc; /* Added border for grid items */
-    border-radius: 5px; /* Added border radius for grid items */
-    padding: 1rem; /* Added padding for grid items */
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 1rem;
 }
 
 .grid-item img {
-    width: 100%; /* Ensure images fill the grid item */
+    width: 100%;
     height: auto;
 }
 
 .grid-item h3 {
-    margin-top: 1rem; /* Added margin for spacing */
+    margin-top: 1rem; 
 }
